@@ -9,9 +9,9 @@ const Header = () => {
                 </div>
                 <Nav className="d-flex flex-row">
                     <Nav.Link style={{margin: "0px 20px"}} href="#home">Home</Nav.Link>
-                    <Nav.Link style={{margin: "0px 20px"}} href="#home">Services</Nav.Link>
-                    <Nav.Link style={{margin: "0px 20px"}} href="#home">Property</Nav.Link>
-                    <Nav.Link style={{margin: "0px 20px"}} href="#home">Contact</Nav.Link>
+                    <Nav.Link style={{margin: "0px 20px"}} href="#services">Services</Nav.Link>
+                    <Nav.Link style={{margin: "0px 20px"}} href="#property">Property</Nav.Link>
+                    <Nav.Link style={{margin: "0px 20px"}} href="#contact">Contact</Nav.Link>
                 </Nav>
                 <Nav className="d-flex flex-row">
                     <Button className="" style={{margin: "0px 20px", color: "#262223", background: "none", border: "none"}}>Login</Button>
