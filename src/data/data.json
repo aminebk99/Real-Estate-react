@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "the domain",
+        "category": "for sale",
+        "imageURL": "https://media.graphassets.com/kcqbCpucTbmzbM5yqelI"
+    },
+    {
+        "id": 2,
+        "name": "Gray home",
+        "category": "for sale",
+        "imageURL": "https://images.barrons.com/im-589066?width=1280&size=1"
+    },
+    {
+        "id": 3,
+        "name": "Space hub",
+        "category": "Rental",
+        "imageURL": "https://netstorage-legit.akamaized.net/images/31c1324abb4bcdd6.jpg?&imwidth=1200"
+    },
+    {
+        "id": 4,
+        "name": "Riverside Villa",
+        "category": "for sale",
+        "imageURL": "https://netstorage-tuko.akamaized.net/images/ecbfbefa76139cd4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sunset Cottage",
+        "category": "Rental",
+        "imageURL": "https://i.pinimg.com/736x/23/a7/56/23a7561ed6fabafc9264b2758348a087.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Garden Haven",
+        "category": "for sale",
+        "imageURL": "https://farm5.static.flickr.com/4194/33633569104_227a7d687f_b.jpg"
+    }
+]

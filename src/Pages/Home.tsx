@@ -1,3 +1,4 @@
+import FeaturedList from "../Components/FeaturedList"
 import Header from "../Components/Header"
 import Slide from "../Components/Slide"
 
@@ -7,6 +8,8 @@ const Home = () => {
         <>
             <Header />
             <Slide />
+            <FeaturedList />
+            
 
         </>
     )
