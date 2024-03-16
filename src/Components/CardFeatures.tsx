@@ -1,7 +1,12 @@
-import React from "react";
-import { Container } from "react-bootstrap";
+import React from 'react';
 
-const CardFeatures = ({ data }) => {
+interface CardData {
+    imageURL: string;
+    category: string;
+    name: string;
+}
+
+const CardFeatures: React.FC<{ data: CardData }> = ({ data }) => {
     return (
         <div style={{ margin: "20px", position: "relative", overflow: "hidden", width: "400px", height: "400px", borderRadius: "10px" }}>
             <div style={{ position: "relative" }}>
@@ -26,8 +31,8 @@ const CardFeatures = ({ data }) => {
                     }}
                 ></div>
             </div>
-            <div style={{ width: "100%", height: "100%",position: "absolute", top: "0px", color: "white", padding: "20px", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-                <span style={{ fontSize: "14px",fontWeight: "400" ,alignSelf: "end", backgroundColor: "white", color: "black", padding: "5px 10px", borderRadius: "20px" }}>{data.category}</span>
+            <div style={{ width: "100%", height: "100%", position: "absolute", top: "0px", color: "white", padding: "20px", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                <span style={{ fontSize: "14px", fontWeight: "400", alignSelf: "end", backgroundColor: "white", color: "black", padding: "5px 10px", borderRadius: "20px" }}>{data.category}</span>
                 <h3>{data.name}</h3>
             </div>
         </div>
