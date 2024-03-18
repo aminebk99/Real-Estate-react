@@ -8,7 +8,7 @@ interface CardData {
 
 const CardFeatures: React.FC<{ data: CardData }> = ({ data }) => {
     return (
-        <div style={{ margin: "20px", position: "relative", overflow: "hidden", width: "400px", height: "400px", borderRadius: "20px" }}>
+        <div style={{ margin: "20px", position: "relative", overflow: "hidden", width: "400px", height: "400px", borderRadius: "30px" }}>
             <div style={{ position: "relative" }}>
                 <img
                     src={data.imageURL}
