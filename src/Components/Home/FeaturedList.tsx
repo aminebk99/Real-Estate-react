@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import CardFeatures from "./CardFeatures";
-import data from "../data/data.json"
+import data from "../../data/data.json"
 
 const FeaturedList = () => (
     <Container>

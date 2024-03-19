@@ -1,6 +1,6 @@
-import FeaturedList from "../Components/FeaturedList"
+import FeaturedList from "../Components/Home/FeaturedList"
 import Header from "../Components/Header"
-import Slide from "../Components/Slide"
+import Slide from "../Components/Home/Slide"
 
 
 const Home = () => {
