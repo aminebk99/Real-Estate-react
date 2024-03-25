@@ -4,6 +4,13 @@ WORKDIR /app
 
 COPY package*.json ./
 
+# Set proxy if needed
+# RUN npm config set proxy http://your.proxy.url:port
+# RUN npm config set https-proxy http://your.proxy.url:port
+
+# Update npm version if needed
+RUN npm install -g npm@10.5.0
+
 RUN npm install
 
 COPY . .

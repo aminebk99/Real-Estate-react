@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "property Type": "Duplex House",
+        "price range": "$21,000 - $40,000",
+        "location": "New York City"
+    },
+    {
+        "id": 2,
+        "property Type": "Single Family Home",
+        "price range": "$100,000 - $300,000",
+        "location": "Los Angeles"
+    },
+    {
+        "id": 3,
+        "property Type": "Condo",
+        "price range": "$150,000 - $500,000",
+        "location": "Chicago"
+    },
+    {
+        "id": 4,
+        "property Type": "Townhouse",
+        "price range": "$120,000 - $250,000",
+        "location": "Houston"
+    }
+]
