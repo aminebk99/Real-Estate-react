@@ -9,7 +9,7 @@ const FeaturedList = () => (
         <Container style={{ width: "100%", display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center"}}>
         {data.map((data)=>(
 
-                <CardFeatures data={data} />
+                <CardFeatures key={data.id}data={data} />
                 ))
             }
             </Container>
